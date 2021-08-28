@@ -28,7 +28,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div id="main" className="overflow-auto">
+    <div id="main">
       <div id="display" className={styles.display}>
         {/* We are passing the currentPage from state and the function to update it */}
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
