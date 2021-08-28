@@ -1,0 +1,10 @@
+/* footer css */
+footer {
+    background-color: var(--secondary-bg-color);
+    color: var(--font-color);
+    font-size: 13px;
+    position: relative;
+    bottom: 20px;
+    /* margin-top: 100%; */
+    width: 100%;
+}

@@ -1,0 +1,311 @@
+body {
+    background-color: var(--bg-color) !important;
+}
+
+div {
+    background-color: transparent;
+}
+
+.p-4 {
+    background-color: var(--secondary-bg-color)
+}
+
+/* .m-autoC {
+    margin-top: 10rem !important;
+} */
+
+.aboutCard {
+    margin:0 auto;
+    margin-top: 50px;
+}
+
+.profile-card-4 {
+    max-width: 600px;
+    background-color: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.657);
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.col-12 {
+    background-color: transparent !important;
+}
+
+.profile-card-4 img {
+    transition: all 0.25s linear;
+}
+
+.profile-card-4 .profile-content {
+    position: relative;
+    padding: 15px;
+    background-color: var(--secondary-bg-color);
+}
+
+.profile-card-4 .profile-name {
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -70px;
+    color: #FFF;
+    font-size: 20px;
+    background-color: transparent !important;
+}
+
+.profile-card-4 .profile-name p {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    color: var(--secondary-color);
+}
+
+.profile-card-4 .profile-description {
+    color: #777;
+    font-size: 23px;
+    padding: 10px;
+}
+
+.profile-card-4 .profile-overview {
+    padding: 15px 0px;
+}
+
+.profile-card-4 .profile-overview p {
+    font-size: 10px;
+    font-weight: 600;
+    color: #777;
+}
+
+.profile-card-4 .profile-overview h4 {
+    color: #273751;
+    font-weight: bold;
+}
+
+.profile-card-4 .profile-content::before {
+    content: "";
+    position: absolute;
+    height: 25px;
+    top: -10px;
+    left: 0px;
+    right: 0px;
+    background-color:  var(--secondary-bg-color);
+    z-index: 0;
+    transform: skewY(3deg);
+}
+
+.profile-card-4:hover img {
+    transform: rotate(5deg) scale(1.1, 1.1);
+    filter: brightness(110%);
+}
+
+/* icon in about me css */
+.containerIcons .icons {
+    color: var(--secondary-color);
+    /* outline: 1px solid var(--primary-color); */
+    box-shadow: 0 0 0 1pt var(--primary-color);
+    border: none;
+    background-color: var(--secondary-border-color);
+}
+
+.containerIcons .icons:hover {
+    color: white;
+    background-color: var(--secondary-border-color);
+    box-shadow: none;
+}
+
+.containerIcons {
+    margin-bottom: 0 !important;
+}
+/*           Resume buttons css */
+.resumeBtnC {
+    display:flex;
+    justify-content: center;
+}
+
+.resumeDBtn {
+    color: rgb(0, 0, 0) !important;
+    margin: 10px;
+    background-color: var(--primary-color) !important;
+}
+
+.resumeDBtn:hover {
+    animation: animated-border 1.5s infinite;
+    border-color: var(--secondary-color);
+    color: black;
+    background-color: var(--secondary-color);
+}
+
+.resumePBtn:hover {
+    animation: animated-border 1.5s infinite;
+    border-color: var(--secondary-color);
+    color: black;
+    background-color: var(--secondary-color);
+}
+
+.resumePBtn {
+    margin: 10px !important;
+    color: white;
+    background-color: rgb(97, 97, 97);
+    border-color: none;
+    box-shadow: 0 0 0 1pt var(--primary-color);
+    margin-left: 10px;
+}
+
+.resumeT {
+    margin: 0;
+}
+
+
+/* Skills sections */
+.skillsWrapper {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0 50px;
+}
+
+.skillsTitle {
+   text-align: center;
+   padding: 0;
+   margin:0;
+   margin-right: 50px;
+   margin-bottom: 0;
+   margin-top:110px;
+   color: var(--primary-color);
+   text-shadow: 2px 1px 0px var(--tertiary-color);
+   font-size: 3.5em;
+   font-weight: 300;
+   line-height: 1.2;
+   white-space:nowrap;
+   text-overflow: none;
+}
+
+.skillbar {
+ position: relative;
+ display: block;
+ width: 100%;
+ margin-bottom: 15px;
+ margin-top: 20px;
+}
+
+.skillbarTop {
+    margin-top: 10px;
+}
+
+.skillbar-bar:before {
+ background-color: #111;
+ content: "";
+ height: 3px;
+ position: absolute;
+ width: 100%;
+ z-index: -1;
+}
+
+.skillbar-bar {
+ height: 3px;
+ width: 0px;
+ background: rgb(220, 187, 0);
+ animation: animated-borderSkills 1.5s infinite;
+ transition-property: width, background-color;
+}
+
+.skillbar-title {
+ color: var(--font-color);
+ font-size: 15px;
+ font-weight: 600;
+ display: inline-block;
+}
+
+.skill-bar-percent {
+ float: right;
+ color: var(--font-color);
+ font-size: 11px;
+ font-weight: 600;
+ text-transform: uppercase;
+}
+
+/* Gears*/
+#gear1, #gear2, #gear3 {
+   /* display: block; */
+   float: right;
+   position: absolute;
+   font-size: 20px;
+   text-shadow: none;
+}
+           
+#gear1 {
+   font-size: 40px;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+           
+#gear2 {
+   margin-left: 45px;
+   margin-top: 5px;
+}
+
+#gear3 {
+   margin-left: 45px;
+   margin-top: 28px;
+}
+
+
+/*                      Gear animations */
+.spin {
+    -webkit-animation:spin 20s linear infinite;
+    -moz-animation:spin 20s linear infinite;
+    animation:spin 20s linear infinite;
+ }
+ 
+ .spin-back {
+    -webkit-animation:spin-back 15s linear infinite;
+    -moz-animation:spin-back 15s linear infinite;
+    animation:spin-back 15s linear infinite;
+ }
+  
+/*               css for glowing transitions */
+  
+@keyframes animated-border {
+    0% {
+      box-shadow: 0 0 0 0 rgba(251, 186, 5, 0.671);
+    }
+    100% {
+       box-shadow: 0 0 30px 5px rgba(255,255,255,0);
+    }
+  }
+  
+  /*              responsive skill bar properties */
+  @keyframes animated-borderSkills {
+    0% {
+      box-shadow: 0 0 0 0 rgb(255, 187, 0);
+    }
+    100% {
+       box-shadow: 0 0 11px 1px rgba(255,255,255,0);
+    }
+  }
+  
+  @keyframes animated-borderSkillC {
+    0% {
+      box-shadow: 0 0 0 0 rgb(250, 38, 38);
+    }
+    100% {
+       box-shadow: 0 0 11px 1px rgba(255,255,255,0);
+    }
+  }
+  
+  @keyframes shine {
+      to {
+        background-position: 200% center;
+      }
+  }
+  
+  /*                     keyframes for spinning gears */
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+  
+  @-moz-keyframes spin-back { 100% { -moz-transform: rotate(-360deg); } }
+  @-webkit-keyframes spin-back { 100% { -webkit-transform: rotate(-360deg); } }
+  @keyframes spin-back { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+  
