@@ -200,4 +200,44 @@
   .textS {
     text-shadow: 2px 1px 0px var(--tertiary-color);
   }
-  
+
+
+@media screen and (max-width: 470px) {
+  .projectsTitle {
+      font-size: 4.5em;
+  }
+
+  .assignmentsTitle{
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 363px) {
+  .projectsTitle {
+      font-size: 4em;
+  }
+
+  .assignmentsTitle{
+    font-size: 3.5em;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .projectsTitle {
+      font-size: 4em;
+  }
+
+  .assignmentsTitle{
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .projectsTitle {
+      font-size: 3.5em;
+  }
+
+  .assignmentsTitle{
+    font-size: 2.8em;
+  }
+}

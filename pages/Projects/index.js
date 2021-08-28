@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image'
-
+import { Icon } from '@iconify/react';
 // images and gifs imports
 
 
@@ -63,7 +63,7 @@ export default function Projects() {
           <div className="card-footer">
             <div className="text-center mt-auto">
               <a target="_blank" rel="noreferrer" href="https://github.com/brandonfordd/mvc_techblog" className="btn p-btn-color btn-lg custom-length-ps" role="button" aria-pressed="true"><b>GitHub </b><i className="fab fa-github-square"></i></a>
-              <a target="_blank" rel="noreferrer" href="immense-lake-51774.herokuapp.com/" className="btn btn-secondary btn-lg custom-length-ss" role="button" aria-pressed="true"><span className="iconify" data-icon="simple-icons:heroku" data-inline="false"></span></a>
+              <a target="_blank" rel="noreferrer" href="immense-lake-51774.herokuapp.com/" className="btn btn-secondary btn-lg custom-length-ss" role="button" aria-pressed="true"><Icon className="iconify" icon="simple-icons:heroku" data-inline="false"/></a>
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@ export default function Projects() {
           <div className="card-footer">
             <div className="text-center mt-auto">
               <a target="_blank" rel="noreferrer" href="https://github.com/brandonfordd/notetaker" className="btn p-btn-color btn-lg custom-length-ps" role="button" aria-pressed="true"><b>GitHub </b><i className="fab fa-github-square"></i></a>
-              <a target="_blank" rel="noreferrer" href="https://intense-retreat-13384.herokuapp.com/" className="btn btn-secondary btn-lg custom-length-ss" role="button" aria-pressed="true"><span className="iconify" data-icon="simple-icons:heroku" data-inline="false"></span></a>
+              <a target="_blank" rel="noreferrer" href="https://intense-retreat-13384.herokuapp.com/" className="btn btn-secondary btn-lg custom-length-ss" role="button" aria-pressed="true"><Icon className="iconify" icon="simple-icons:heroku" data-inline="false"/></a>
             </div>
           </div>
         </div>

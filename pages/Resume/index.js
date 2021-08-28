@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <section id="resume" className="resume">
+    <section id="resume" className="resume overflow-auto">
       <div className="container">
 
         <div className="section-title">

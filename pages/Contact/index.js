@@ -45,7 +45,7 @@ export default function Home() {
   }
 
   return (
-<section id="contact" className="contact">
+<section id="contact" className="contact container overflow-auto">
 <div className="container">
   <div className="section-title">
     <h2>Contact</h2>

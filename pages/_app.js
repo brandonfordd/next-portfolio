@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
         <Head>
             <title>Next Portfolio</title>
             <link rel="preconnect" href="https://fonts.googleapis.com"/>
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
             <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet"/>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
             <link
@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
               integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
               crossOrigin="anonymous"
             />
-            <Script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></Script>
+            
         </Head>
       <Component {...pageProps} />
       </>
