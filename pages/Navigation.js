@@ -12,7 +12,7 @@ function Navigation({ currentPage, handlePageChange }) {
       <Navbar expand="lg" className="navbar sticky-top navbar-expand-lg p-background-color "> 
         <Navbar.Brand 
           className="navbar-brand p-font-color nav-brand-custom swing linear-wipe" 
-          href="/"> Brandon Ford's Portfolio
+          href="/"> Brandon Ford&apos;s Portfolio
         </Navbar.Brand>
         <Navbar.Toggle className="navbar-toggler navbarBtn custom-toggler" aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

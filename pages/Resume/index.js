@@ -3,18 +3,18 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <section id="resume" class="resume">
-      <div class="container">
+    <section id="resume" className="resume">
+      <div className="container">
 
-        <div class="section-title">
+        <div className="section-title">
           <h2>Resume</h2>
           <p>Welcome to my resume! Below you'll find my previous work experience and knowledge! Enjoy and Contact me if you have any questions:)</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Summary</h3>
-            <div class="resume-item pb-0">
+        <div className="row">
+          <div className="col-lg-6" data-aos="fade-up">
+            <h3 className="resume-title">Summary</h3>
+            <div className="resume-item pb-0">
               <h4>Brandon Ford</h4>
               <p><em>
                 Reliable, quality-focused construction technician/ upcoming Web Developer
@@ -30,17 +30,17 @@ export default function Resume() {
               </ul>
             </div>
 
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
+            <h3 className="resume-title">Education</h3>
+            <div className="resume-item">
               <h4> Advanced Javascript &amp; Front and Back End Web Design</h4>
               <h5>2021 - 2021</h5>
               <p><em>George Washington University, Ashburn , VA</em></p>
               <p> An online Bootcamp designed to teach advanced javascript skill to develop websites, build a career in web development, and learn technical skills in the Javascript language. </p>
             </div>
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
+          <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 className="resume-title">Professional Experience</h3>
+            <div className="resume-item">
               <h4>Construction Technician </h4>
               <h5>2018 - 2021</h5>
               <p><em>Connor Construction, Arlington, VA </em></p>
@@ -54,7 +54,7 @@ export default function Resume() {
                 <li>Perform special duties for other projects and assist others when needed.</li>
               </ul>
             </div>
-            <div class="resume-item">
+            <div className="resume-item">
               <h4>Front-Desk Assistant</h4>
               <h5>2017 - 2018</h5>
               <p><em>La Fitness, Leeseburg, VA</em></p>

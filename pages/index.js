@@ -29,7 +29,7 @@ export default function PortfolioContainer() {
 
   return (
     <div id="main">
-      <div id="display" class={styles.display}>
+      <div id="display" className={styles.display}>
         {/* We are passing the currentPage from state and the function to update it */}
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
         {/* Here we are calling the renderPage method which will return a component  */}

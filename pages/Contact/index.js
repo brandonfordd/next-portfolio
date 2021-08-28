@@ -45,18 +45,18 @@ export default function Home() {
   }
 
   return (
-<section id="contact" class="contact">
-<div class="container">
-  <div class="section-title">
+<section id="contact" className="contact">
+<div className="container">
+  <div className="section-title">
     <h2>Contact</h2>
     <p>Like to reach out? Contact me from the form below and watch out for an email!
     </p>
   </div>
-  <div class="row" data-aos="fade-in">
-    <div class="col-lg-5 d-flex align-items-stretch">
+  <div className="row" data-aos="fade-in">
+    <div className="col-lg-5 d-flex align-items-stretch">
     </div>
     <div className="col-12 d-flex align-items-stretch">
-      <form action="forms/contact.php" method="post" class="php-email-form">
+      <form action="forms/contact.php" method="post" className="php-email-form">
         <div className="row">
           <div className="form-group col-md-3">
             <label htmlFor="name">Name</label>
