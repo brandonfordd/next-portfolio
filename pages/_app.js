@@ -7,6 +7,7 @@ import '../styles/Resume.css';
 import '../styles/Footer.css';
 import '../styles/Contact.css';
 
+import Script from 'next/script'
 import Head from "next/head";
 import {useEffect} from "react";
 
@@ -29,7 +30,7 @@ function MyApp({ Component, pageProps }) {
               integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
               crossOrigin="anonymous"
             />
-            <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+            <Script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></Script>
         </Head>
       <Component {...pageProps} />
       </>

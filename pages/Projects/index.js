@@ -36,7 +36,7 @@ export default function Projects() {
         </div>
       </div>
     </div>
-    <h1 className="assignmentsTitle" id="assignments">Assignments <i class="fas fa-angle-double-left"></i></h1>
+    <h1 className="assignmentsTitle" id="assignments">Assignments <i className="fas fa-angle-double-left"></i></h1>
     <hr className="hrAssignments"></hr>
     <div className="row row-cols-1 row-cols-md-3 g-4">
       <div className="col paddingTop">
@@ -147,7 +147,7 @@ export default function Projects() {
             <p className="card-text">This is a weather dashboard made with <b className="moment">OpenWeather Api</b>! Below are the links for the GitHub repository and webpage</p>
           </div>
           <div className="card-footer">
-            <div class="text-center mt-auto">
+            <div className="text-center mt-auto">
               <a target="_blank" rel="noreferrer" href="https://github.com/brandonfordd/weather_app" className="btn p-btn-color btn-lg custom-length-ps" role="button" aria-pressed="true"><b>GitHub </b><i className="fab fa-github-square"></i></a>
               <a target="_blank" rel="noreferrer" href="https://brandonfordd.github.io/weather_app/" className="btn btn-secondary btn-lg custom-length-ss" role="button" aria-pressed="true"><i className="fas fa-window-maximize"></i></a>
             </div>
