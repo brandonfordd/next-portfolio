@@ -20,8 +20,8 @@ export default function Projects() {
         </div>
         <div className="card-footer">
           <div className="text-center mt-auto">
-            <a target="_blank" rel="noreferrer" href="https://github.com/Captain63/patient-records-tracker" className="btn p-btn-color btn-lg  custom-length-pm" role="button" aria-pressed="true"><b>GitHub </b><i className="fab fa-github-square"></i></a>
-            <a target="_blank" rel="noreferrer" href="https://patient-records-tracker.herokuapp.com" className="btn btn-secondary btn-lg  custom-length-sm" role="button" aria-pressed="true"><i className="fas fa-window-maximize"></i></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/AustinJoo97/Pandoras-Box" className="btn p-btn-color btn-lg  custom-length-pm" role="button" aria-pressed="true"><b>GitHub </b><i className="fab fa-github-square"></i></a>
+            <a target="_blank" rel="noreferrer" href="/" className="btn btn-secondary btn-lg  custom-length-sm" role="button" aria-pressed="true"><i className="fas fa-window-maximize"></i></a>
           </div>
         </div>
       </div>
