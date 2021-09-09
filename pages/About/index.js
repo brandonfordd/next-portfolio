@@ -62,7 +62,6 @@ export default function About() {
       <div className="row">
         <div className="col-md-12 col-lg-6">
           <div className="col-md-8 col-lg-10 aboutCard">
-            <hr className="hrAbout"></hr>
             <div className="profile-card-4 text-center">
             <Image src="/assets/images/me.jpg" alt="me" width="535" height="510" />
               <div className="profile-content">
@@ -94,7 +93,6 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <hr className="hrAbout"></hr>
           </div>
         </div>
         <div className="col-sm-12 col-md-12 col-lg-6 container skillsWrapper">

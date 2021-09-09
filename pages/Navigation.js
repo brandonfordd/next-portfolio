@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 
+
+
 import { Navbar,Nav,NavDropdown,Form,FormControl,Button,NavItem } from 'react-bootstrap'
 import {Link} from "react-router-dom";
 // Here we are using object destructuring assignment to pluck off our variables from the props object
@@ -61,6 +63,8 @@ function Navigation({ currentPage, handlePageChange }) {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+      
+      
   );
 }
 

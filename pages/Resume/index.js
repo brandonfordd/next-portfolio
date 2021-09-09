@@ -3,15 +3,14 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <section id="resume" className="resume overflow-auto">
+    <div id="resume" className="resume container mt-5">
       <div className="container">
 
         <div className="section-title">
           <h2>Resume</h2>
           <p>Welcome to my resume! Below you&apos;ll find my previous work experience and knowledge! Enjoy and Contact me if you have any questions:)</p>
         </div>
-
-        <div className="row">
+        <div className="row rowResume">
           <div className="col-lg-6" data-aos="fade-up">
             <h3 className="resume-title">Summary</h3>
             <div className="resume-item pb-0">
@@ -68,6 +67,6 @@ export default function Resume() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

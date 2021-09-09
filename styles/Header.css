@@ -57,7 +57,7 @@ body {
 }
 
 .m-autoC {
-margin-top: 50px;
+/* margin-top: 50px; */
 margin-bottom: 60px;
 }
 
@@ -88,6 +88,7 @@ nav {
 
 .nav-brand-custom {
   margin-left: 1rem ;
+  font-size: 16px;
 }
 
 .dropdown-menu {

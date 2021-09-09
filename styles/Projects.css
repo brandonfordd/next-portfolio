@@ -6,16 +6,27 @@
 }
 
 .projectsTitle {
-    margin-bottom: 0;
-    margin-top: 50px;
-    margin-left: 30px;
-    color: var(--primary-color);
-    text-shadow: 2px 1px 0px var(--tertiary-color);
-    font-size: 5em;
-    font-weight: 300;
-    line-height: 1.2;
-    white-space:nowrap;
-    text-overflow: none;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: px;
+  position: relative;
+  color: var(--primary-color); 
+  background-color: var(--secondary-bg-color);
+  width: fit-content;
+  border-radius: 15px;
+  padding: 0 1%;
+}
+
+.projectsTitle::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: var(--secondary-color);
+  bottom: -7px;
+  left: 13px;
 }
 
 .containerIcons {
@@ -45,19 +56,39 @@
 
 /* assignments section */
 
+.assignmentsTitleWrapper {
+  margin-top: 5%;
+}
+
 .assignmentsTitle {
     text-align: right;
-    margin-bottom: 0;
-    margin-top: 50px;
+    margin-bottom: 2%;
+    margin-top: 100px;
     margin-right: 30px;
-    color: var(--primary-color);
-    text-shadow: 2px 1px 0px var(--tertiary-color);
-    font-size: 4.5em;
-    font-weight: 300;
-    line-height: 1.2;
-    white-space:nowrap;
-    text-overflow: none;
+    margin-left: auto;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: px;
+    position: relative;
+    color: var(--primary-color); 
+    background-color: var(--secondary-bg-color);
+    width: fit-content;
+    border-radius: 15px;
+    padding: 0 1%;
 }
+
+.assignmentsTitle::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: var(--secondary-color);
+  bottom: -7px;
+  right: 13px;
+}
+
 .group-card-body {
     background-color: var(--secondary-bg-color);
     color: var(--secondary-font-color);

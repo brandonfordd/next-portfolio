@@ -16,25 +16,31 @@ section {
   font-size: 38px;
   font-weight: bold;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom: px;
   position: relative;
   color: var(--primary-color); 
+  background-color: var(--secondary-bg-color);
+  width: fit-content;
+  border-radius: 15px;
+  padding: 0 1%;
 }
 
 .section-title h2::after {
   content: '';
   position: absolute;
   display: block;
-  width: 50px;
+  width: 70px;
   height: 3px;
   background: var(--secondary-color);
-  bottom: 0;
-  left: 0;
+  bottom: -7px;
+  left: 13px;
 }
 
 .section-title p {
   margin-bottom: 0;
-  font-size:22px
+  /* font-weight: ; */
+  text-shadow: 1px 1px 10px rgb(0, 0, 0);
+  font-size:25px
 }
   
 .resume .resume-title {
@@ -64,7 +70,7 @@ section {
 }
 
 .resume .resume-item h5 {
-  font-size: 16px;
+  font-size: 18px;
   background: #646464;
   padding: 5px 15px;
   display: inline-block;
@@ -77,9 +83,13 @@ section {
 }
 
 .resume .resume-item ul li {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  font-size: 15px;
 }
 
+.resume .resume-item p {
+  font-size: 18px;
+}
 .resume .resume-item:last-child {
   padding-bottom: 0;
 }
@@ -94,4 +104,12 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid var(--primary-color);
+}
+
+.rowResume {
+  margin-bottom: 30px;
+  margin-top: 1%;
+  padding: 2%;
+  background-color: var(--secondary-bg-color);
+  border-radius: 25px;
 }

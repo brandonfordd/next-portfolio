@@ -10,8 +10,6 @@ export default function Projects() {
 
       <h1 className="projectsTitle"><i className="fas fa-angle-double-right"></i> Projects</h1>
 
-      <hr className="hrProjects"></hr>
-
       <div className="card customCard">
         <Image className="card-img-top main-img-height" src="/assets/images/pandorabox_screenshot.png" alt="patienttracker" layout="responsive" width={6} height={3.7} /> 
         <div className="card-body main-card-body d-flex flex-column">
@@ -54,9 +52,9 @@ export default function Projects() {
         </div>
       </div>
 
-      <h1 className="assignmentsTitle" id="assignments">Assignments <i className="fas fa-angle-double-left"></i></h1>
-
-      <hr className="hrAssignments"></hr>
+      <div className="assignmentsTitleWrapper">
+        <h1 className="assignmentsTitle" id="assignments">Assignments <i className="fas fa-angle-double-left"></i></h1>
+      </div>
 
       <div className="row row-cols-1 row-cols-md-3 g-4">
 
