@@ -69,7 +69,7 @@ export default function About() {
                     <p>@brandonfordd</p>
                 </div>
                 <div className="profile-description">
-                  <p className="linear-wipe-big">Hello! My name is Brandon Ford and this is my portfolio! I&apos;m a beginner Software Engineer and Full Stack Web Developer based in the Northern Virginia area. Currently studying at a George Washington University bootcamp for Front-end and Back-end Web Development. Check below for some current projects!</p></div>
+                  <p className="linear-wipe-big">Hello, my name is Brandon Ford and this is my portfolio! I made this not only to showcase my various assignments and projects throughout my journey, but to also demonstrate skills in React and Next.js. For other versions of this portfolio please visit my Github!</p></div>
                   <div className="row">
                     <div className="col-12">
                       <div className="container p-1 pb-0">
@@ -86,7 +86,7 @@ export default function About() {
                           <a target="_blank" rel="noreferrer" className="btn btn-floating m-1 icons" href="mailto:brandon.ford.617@gmail.com" role="button"
                             ><i className="fab fa-google"></i>
                           </a>
-                          <a role="button" target="_blank" className="btn btn-floating m-1 resumePBtn noWrap " href="assets/downloads/brandonford_resume.pdf">Preview Resume <i className="far fa-file-pdf"></i></a>
+                          <a role="button" target="_blank" className="btn btn-floating m-1 resumePBtn noWrap " href="/assets/downloads/brandonford_resume.pdf" download> Download Resume <i className="far fa-file-pdf"></i></a>
                         </div>
                       </div>
                   </div>
@@ -95,7 +95,8 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="col-sm-12 col-md-12 col-lg-6 container skillsWrapper">
+        <div className="col-md-12 col-lg-6 ">
+        <div className="col-sm-12 col-md-12 col-lg-12 container skillsWrapper">
           <div className="container d-flex ">
             <h1 className="skillsTitle container"> Skills
               <i id="gear1" className="fa fa-5x fa-gear spin p-primary-color"></i>
@@ -186,6 +187,7 @@ export default function About() {
               <hr className="hrAbout"></hr>
             </div>
           </div>
+        </div>
         </div>
       </div>  
     </div>
