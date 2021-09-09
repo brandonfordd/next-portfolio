@@ -16,7 +16,7 @@ export default function Projects() {
         <Image className="card-img-top main-img-height" src="/assets/images/pandorabox_screenshot.png" alt="patienttracker" layout="responsive" width={6} height={3.7} /> 
         <div className="card-body main-card-body d-flex flex-column">
           <h2 className="card-title"><ins>Pandoras Box</ins></h2>
-          <p className="card-text h5">Full-stack application foLLowing the M.E.R.N diagram. This application utilizes technology's like Next.js, React, and GraghQL to help the workflow and better the quality of the application all together. Below are the links for the GitHub repository and Vercel webpage!</p>
+          <p className="card-text h5">Full stack application foLLowing the M.E.R.N diagram. This application utilizes technology&apos;s like Next.js, React, and GraghQL to help the workflow and better the quality of the application all together. Below are the links for the GitHub repository and Vercel webpage!</p>
         </div>
         <div className="card-footer">
           <div className="text-center mt-auto">
@@ -30,7 +30,7 @@ export default function Projects() {
         <Image className="card-img-top main-img-height" src="/assets/gifs/patienttrackergif.gif" alt="patienttracker" layout="responsive" width={6} height={3.7} /> 
         <div className="card-body main-card-body d-flex flex-column">
           <h2 className="card-title"><ins>MVC Patient Tracker</ins></h2>
-          <p className="card-text h5">Full-stack application following MVC paradigm for creating, updating, sorting and deleting patient records. Below are the links for the GitHub repository and <b className="herkou">Heroku</b> webpage!</p>
+          <p className="card-text h5">Full stack application following MVC paradigm for creating, updating, sorting and deleting patient records. Below are the links for the GitHub repository and <b className="herkou">Heroku</b> webpage!</p>
         </div>
         <div className="card-footer">
           <div className="text-center mt-auto">
@@ -81,7 +81,7 @@ export default function Projects() {
           <Image className="card-img-top main-img-height" src="/assets/gifs/pwa.gif" alt="pwa" layout="responsive" width={6} height={3.5} />   
             <div className="card-body group-card-body d-flex flex-column">
               <h3 className="card-title "><ins>Progressive Web Application</ins></h3>
-              <p className="card-text"> Full stack web application to track your spending's on the fly by utilizing webpack to run offline. Below is the link to the Github and <b className="herkou">Heroku</b> page</p>
+              <p className="card-text"> Full stack web application to track your spending&apos;s on the fly by utilizing webpack to run offline. Below is the link to the Github and <b className="herkou">Heroku</b> page</p>
             </div>
             <div className="card-footer">
               <div className="text-center mt-auto">
@@ -97,7 +97,7 @@ export default function Projects() {
           <Image className="card-img-top main-img-height" src="/assets/gifs/mdb_workout.gif" alt="mdb_workout" layout="responsive" width={6} height={3.5} />   
             <div className="card-body group-card-body d-flex flex-column">
               <h3 className="card-title "><ins>Workout Tracker/MongoDB</ins></h3>
-              <p className="card-text"> Full stack web application to track workouts, utilizing MongoDB for the backend. Below is the link to the Github and <b className="herkou">Heroku</b> page</p>
+              <p className="card-text"> Full stack web application to track workout&apos;s, utilizing MongoDB for the backend. Below is the link to the Github and <b className="herkou">Heroku</b> page</p>
             </div>
             <div className="card-footer">
               <div className="text-center mt-auto">
