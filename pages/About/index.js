@@ -69,8 +69,8 @@ export default function About() {
                 <div className="profile-name" id="contacts">  Brandon Ford
                     <p>@brandonfordd</p>
                 </div>
-                <div className="profile-description  linear-wipe-big">
-                  <p>Hello! My name is Brandon Ford and this is my portfolio! I&apos;m a beginner Software Engineer and Full Stack Web Developer based in the Northern Virginia area. Currently studying at a George Washington University bootcamp for Front-end and Back-end Web Development. Check below for some current projects!</p></div>
+                <div className="profile-description ">
+                  <p className="  linear-wipe-big">Hello! My name is Brandon Ford and this is my portfolio! I&apos;m a beginner Software Engineer and Full Stack Web Developer based in the Northern Virginia area. Currently studying at a George Washington University bootcamp for Front-end and Back-end Web Development. Check below for some current projects!</p></div>
                   <div className="row">
                     <div className="col-12">
                       <div className="container p-1 pb-0">
