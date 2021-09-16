@@ -57,7 +57,6 @@ function Navigation({ currentPage, handlePageChange }) {
                 <DropdownButton
                   title="Resume"
                   id="resume-dropdown"
-                  class="dropdown-menu-align"
                 >
                   <Dropdown.Item 
                     href="#resume"

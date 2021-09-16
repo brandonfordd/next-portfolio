@@ -77,7 +77,7 @@ export default function About() {
                           <a target="_blank" rel="noreferrer" className="btn btn-floating m-1 icons" href="https://github.com/brandonfordd" role="button"
                             ><i className="fab fa-github"></i>
                           </a>
-                          <a target="_blank" rel="noreferrer" className="btn btn-floating m-1 icons" href="https://www.linkedin.com/in/brandon-ford617/" role="button"
+                          <a target="_blank" rel="noreferrer" className="btn btn-floating m-1 icons" href="https://www.linkedin.com/in/brandonfordd/" role="button"
                             ><i className="fab fa-linkedin"></i>
                             </a>
                           <a target="_blank" rel="noreferrer" className="btn btn-floating m-1 icons" href="https://www.instagram.com/brandonforddd/" role="button"
