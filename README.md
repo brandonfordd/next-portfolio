@@ -10,7 +10,7 @@
 
 ## Deployed Application 
 
-[Portfolio](https://next-portfolio-ten-xi.vercel.app/)
+[Portfolio](https://www.brandonford.work/)
 
 ## Technologies
 
