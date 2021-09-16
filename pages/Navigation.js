@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 
 
 import { Navbar,Nav,NavDropdown,Form,FormControl,Button,NavItem } from 'react-bootstrap'
@@ -37,7 +39,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
                 className={currentPage === 'Projects' ? 'nav-link p-font-color m-lc active' : 'nav-link p-font-color m-lc'}
               >
-                Projects
+                My Work
               </a>
             </li>
             <li className="nav-item">
@@ -50,15 +52,27 @@ function Navigation({ currentPage, handlePageChange }) {
                 Contact
               </a>
             </li>
-            <li className="nav-item">
-              <a
-                href="#resume"
-                onClick={() => handlePageChange('Resume')}
-                // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                className={currentPage === 'Resume' ? 'nav-link p-font-color m-lc active' : 'nav-link p-font-color m-lc'}
-              >
-                Resume
-              </a>
+            <li className="nav-item nav-item-dropdown">
+              <div className="m-lc">
+                <DropdownButton
+                  title="Resume"
+                  id="resume-dropdown"
+                  class="dropdown-menu-align"
+                >
+                  <Dropdown.Item 
+                    href="#resume"
+                    onClick={() => handlePageChange('Resume')}
+                  >
+                    View Resume
+                  </Dropdown.Item>
+                  <Dropdown.Item 
+                    href="/assets/downloads/brandonford_resume.pdf" 
+                    download
+                  >
+                    Download Resume
+                  </Dropdown.Item>
+                </DropdownButton>
+              </div>
             </li>
           </Nav>
         </Navbar.Collapse>

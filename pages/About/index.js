@@ -60,7 +60,7 @@ export default function About() {
   return (
     <div className="container m-autoC" id="about-me">
       <div className="row">
-        <div className="col-md-12 col-lg-6">
+        <div className="col-md-12 col-lg-6 p-5">
           <div className="col-md-8 col-lg-10 aboutCard">
             <div className="profile-card-4 text-center">
             <Image src="/assets/images/me.jpg" alt="me" width="535" height="510" />
@@ -95,7 +95,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="col-md-12 col-lg-6 ">
+        <div className="col-md-12 col-lg-6 p-5">
         <div className="col-sm-12 col-md-12 col-lg-12 container skillsWrapper">
           <div className="container d-flex ">
             <h1 className="skillsTitle container"> Skills
