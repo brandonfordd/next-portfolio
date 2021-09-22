@@ -17,7 +17,7 @@
   --primary-color: #3fca95;
   --primary-colorD: #00bd74;
   --secondary-color: rgb(255, 196, 0);
-  --tertiary-color: white;
+  --tertiary-color: rgb(192, 192, 192);
   --font-color: #f2fff8ca;
   --secondary-font-color:rgb(192, 192, 192);
   --border-color:#51fcba ;
@@ -189,7 +189,7 @@ nav {
 
 /*                      gradient text colors */
 .linear-wipe {
-  background: linear-gradient(to right, var(--primary-color) 20%, var(--font-color) 40%,var(--font-color) 60%, var(--primary-color) 80%);
+  background: linear-gradient(to right, var(--primary-color) 20%, #777 40%,#777 60%, var(--primary-color) 80%);
   background-size: 200% auto;
   color: #000;
   background-clip: text;

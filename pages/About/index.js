@@ -99,10 +99,10 @@ export default function About() {
         <div className="col-sm-12 col-md-12 col-lg-12 container skillsWrapper">
           <div className="container d-flex ">
             <h1 className="skillsTitle container"> Skills
-              <i id="gear1" className="fa fa-5x fa-gear spin p-primary-color"></i>
-              <i id="gear2" className="fa fa-5x fa-gear spin-back p-tertiary-color"></i>
-              <i id="gear3" className="fa fa-5x fa-gear spin-back p-tertiary-color"></i>        
-            </h1>   
+              <i id="gear1" className="fa fa-5x fa-gear spin p-tertiary-color"></i>
+              <i id="gear2" className="fa fa-5x fa-gear spin-back p-primary-color"></i>
+              <i id="gear3" className="fa fa-5x fa-gear spin-back p-primary-color"></i>        
+            </h1>
           </div>
           <div className="col-12">
             <div className="skillbar skillbarTop" data-percent="75%">
