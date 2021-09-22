@@ -1,0 +1,10 @@
+/* footer css */
+.footer {
+    background-color: var(--secondary-bg-color);
+    color: var(--font-color);
+    /* position: relative; */
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+    
+  }

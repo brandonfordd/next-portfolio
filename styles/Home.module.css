@@ -12,17 +12,6 @@
   height: 30px;
 }
 
-/* footer css */
-.footer {
-  background-color: var(--secondary-bg-color);
-  color: var(--font-color);
-  /* position: relative; */
-  margin-top: auto;
-  bottom: 0;
-  width: 100%;
-  
-}
-
 .headerImg {
   width: 100%;
   height: 0%;

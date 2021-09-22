@@ -4,7 +4,6 @@ import '../styles/Header.css';
 import '../styles/About.css';
 import '../styles/Projects.css';
 import '../styles/Resume.css';
-import '../styles/Footer.css';
 import '../styles/Contact.css';
 
 import Script from 'next/script'
