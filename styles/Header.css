@@ -195,8 +195,9 @@ nav {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: shine 10s linear infinite;
+  animation: shine 30s linear infinite;
 }
+
 .linear-wipe-big {
   background: linear-gradient(to right, var(--primary-color) 20%, #777 40%,#777 60%, var(--primary-color) 80%);
   background-size: 200% auto;
@@ -204,7 +205,7 @@ nav {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: shine 20s linear infinite;
+  animation: shine 30s linear infinite;
 }
 
 /* mediaquerys for mobile ui */
