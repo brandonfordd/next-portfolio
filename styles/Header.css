@@ -22,7 +22,7 @@
   --secondary-font-color:rgb(192, 192, 192);
   --border-color:#51fcba ;
   --secondary-border-color: rgb(37, 37, 37);
-  --bg-color: #292b2c;
+  --bg-color: #222222;
   --secondary-bg-color:rgb(31, 31, 31);
   --box-shadow: 0 0 20px #51fcba41;
 }
@@ -58,7 +58,7 @@ body {
 
 .m-autoC {
 /* margin-top: 50px; */
-margin-bottom: 60px;
+/* margin-bottom: 60px; */
 }
 
 .m-lc {
@@ -84,6 +84,7 @@ nav {
   color: var(--secondary-color) !important;
   position: relative;
   right: 4px;
+
 }
 
 #resume-dropdown {
@@ -314,9 +315,6 @@ nav {
 
   #about-me {
       margin-top: 20px;
-  }
-  #about-me h1 {
-      margin-top: 40px;
   }
 }
 

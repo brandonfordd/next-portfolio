@@ -105,7 +105,6 @@ export default function About() {
             </h1>   
           </div>
           <div className="col-12">
-            <hr className="hrSkills"></hr>
             <div className="skillbar skillbarTop" data-percent="75%">
               <div className="skillbar-title noWrap"><i className="far fa-window-maximize"></i> Front End Web Development </div>
               <div className="skill-bar-percent">75%</div>
@@ -184,7 +183,6 @@ export default function About() {
               <div className="skillbar-title"><i className="fas fa-clipboard-check"></i> Deployment | <i> Heroku, Vercel, Github </i></div>
               <div className="skill-bar-percent">90%</div>
               <div className="skillbar-bar" style={styles.twelveS}></div>
-              <hr className="hrAbout"></hr>
             </div>
           </div>
         </div>

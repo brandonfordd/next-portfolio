@@ -16,7 +16,7 @@ div {
 
 .aboutCard {
     margin:0 auto;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .profile-card-4 {
@@ -161,23 +161,25 @@ div {
 /* Skills sections */
 .skillsWrapper {
     margin-bottom: 30px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding: 5%;
-    background-color: var(--secondary-bg-color);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.657);
+    /* background-color: var(--secondary-bg-color); */
     border-radius: 25px;
 }
 
 .skillsTitle {
     font-size: 40px;
     font-weight: bold;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     margin-bottom: 10px;
-    padding-bottom: px;
-    position: relative;
+    margin-left: 50px;
+    /* padding-bottom: px; */
+    /* position: relative; */
     color: var(--primary-color); 
     background-color: var(--secondary-bg-color);
     width: fit-content;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     padding: 0 1%;
 }
 
@@ -193,21 +195,21 @@ div {
     margin-top: 10px;
 }
 
-.skillbar-bar:before {
- background-color: #111;
- content: "";
- height: 3px;
- position: absolute;
- width: 100%;
- z-index: -1;
-}
-
 .skillbar-bar {
  height: 3px;
  width: 0px;
  background: rgb(220, 187, 0);
  animation: animated-borderSkills 1.5s infinite;
  transition-property: width, background-color;
+}
+
+.skillbar-bar:before {
+background: rgba(17, 17, 17, 0.815);
+content: "";
+height: 3px;
+position: absolute;
+width: 100%;
+z-index: -1;
 }
 
 .skillbar-title {

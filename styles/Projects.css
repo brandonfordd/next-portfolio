@@ -9,13 +9,14 @@
   font-size: 45px;
   font-weight: bold;
   margin-bottom: 20px;
-  padding-bottom: px;
+  padding-bottom: 5px !important;
   position: relative;
   color: var(--primary-color); 
   background-color: var(--secondary-bg-color);
   width: fit-content;
   border-radius: 15px;
-  padding: 0 1%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.657);
+  padding: 0 2%;
 }
 
 .projectsTitle::after {
@@ -61,21 +62,22 @@
 }
 
 .assignmentsTitle {
-    text-align: right;
-    margin-bottom: 2%;
-    margin-top: 100px;
-    margin-right: 20px;
-    margin-left: auto;
-    font-size: 40px !important;
-    font-weight: bold;
-    margin-bottom: 0px;
-    padding-bottom: px;
-    position: relative;
-    color: var(--primary-color); 
-    background-color: var(--secondary-bg-color);
-    width: fit-content;
-    border-radius: 15px;
-    padding: 0 2%;
+text-align: right;
+margin-bottom: 2%;
+margin-top: 100px;
+margin-right: 20px;
+margin-left: auto;
+font-size: 40px !important;
+font-weight: bold;
+margin-bottom: 0px;
+padding-bottom: 5px !important;
+position: relative;
+color: var(--primary-color); 
+background-color: var(--secondary-bg-color);
+width: fit-content;
+border-radius: 15px;
+padding: 0 2%;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.657);
 }
 
 .assignmentsTitle::after {
