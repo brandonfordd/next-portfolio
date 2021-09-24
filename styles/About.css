@@ -17,6 +17,7 @@ div {
 .aboutCard {
     margin:0 auto;
     /* margin-top: 50px; */
+    cursor: none !important;
 }
 
 .profile-card-4 {
@@ -27,7 +28,7 @@ div {
     overflow: hidden;
     position: relative;
     margin: 10px auto;
-    cursor: pointer;
+    cursor: auto;
 }
 
 .col-12 {

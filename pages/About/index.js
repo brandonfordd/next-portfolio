@@ -63,7 +63,7 @@ export default function About() {
         <div className="col-md-12 col-lg-6 p-5">
           <div className="col-md-8 col-lg-10 aboutCard">
             <div className="profile-card-4 text-center">
-            <Image src="/assets/images/me.jpg" alt="me" width="535" height="510" />
+            <Image src="/assets/images/me-pro1.jpg" alt="me" width="535" height="510" />
               <div className="profile-content">
                 <div className="profile-name" id="contacts">  Brandon Ford
                     <p>@brandonfordd</p>
