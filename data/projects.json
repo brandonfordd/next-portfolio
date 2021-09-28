@@ -2,9 +2,9 @@
     {
         "name":"pandorasbox",
         "title": "Pandoras Box",
-        "disc":"Full stack application foLLowing the M.E.R.N diagram to retrieve and display data. Below are the links for the GitHub repository and Vercel webpage!",
+        "disc":"Full stack application following the M.E.R.N diagram to retrieve and display data. Below are the links for the GitHub repository and Vercel webpage!",
         "github":"https://github.com/AustinJoo97/Pandoras-Box",
-        "link":"https://github.com/AustinJoo97/Pandoras-Box",
+        "link":"",
         "img":"/assets/images/pandorabox_screenshot.png"
     },
     {
