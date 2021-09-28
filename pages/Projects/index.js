@@ -85,7 +85,7 @@ export default function Projects() {
       <Container className="px-4">
         <Col>
           <div className="assignmentsTitleWrapper mb-5">
-            <h1 className="projectsTitle"><i className="fas fa-angle-double-right"></i> Projects</h1>
+            <h1 className="projectsTitle">Projects</h1>
           </div>
           <Slider {...settingsProjects}>
               {projects &&
@@ -117,7 +117,7 @@ export default function Projects() {
       <Container className="px-4">
         <Col >
           <div className="assignmentsTitleWrapper mb-5">
-            <h1 className="assignmentsTitle" id="assignments">Assignments <i className="fas fa-angle-double-left"></i></h1>
+            <h1 className="assignmentsTitle" id="assignments">Assignments</h1>
           </div>
           <Slider {...settingsAssignments}>
               {assignments &&
