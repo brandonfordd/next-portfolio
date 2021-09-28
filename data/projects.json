@@ -2,7 +2,7 @@
     {
         "name":"pandorasbox",
         "title": "Pandoras Box",
-        "disc":"Full stack application foLLowing the M.E.R.N diagram. This application utilizes technology&apos;s like Next.js, React, and GraghQL to help the workflow and better the quality of the application all together. Below are the links for the GitHub repository and Vercel webpage!",
+        "disc":"Full stack application foLLowing the M.E.R.N diagram to retrieve and display data. Below are the links for the GitHub repository and Vercel webpage!",
         "github":"https://github.com/AustinJoo97/Pandoras-Box",
         "link":"https://github.com/AustinJoo97/Pandoras-Box",
         "img":"/assets/images/pandorabox_screenshot.png"
@@ -10,7 +10,7 @@
     {
         "name":"moivenightdoneright",
         "title": "Movie Night.. Done Right",
-        "disc":"This assignment was my first group Project! Using html, css, and javascript we made a movie catalog! Below are the links for the GitHub repository and Heroku webpage!",
+        "disc":"Full Stack application using html, css, and javascript to make a movie catalog! Below are the links for the GitHub repository and Heroku webpage!",
         "github":"https://github.com/AustinJoo97/MovieNightDoneRight",
         "link":"https://austinjoo97.github.io/MovieNightDoneRight/",
         "img":"/assets/images/moivenight_screenshot.png"

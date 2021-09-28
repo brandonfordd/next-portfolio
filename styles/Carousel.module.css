@@ -72,7 +72,7 @@
 .body p {
   font-size: 15px;
   padding: 10px;
-  height: 100px;
+  height: 53px;
   color: var(--font-color);
   text-shadow: 2px 1px 10px rgba(133, 133, 133, 0.356);
 }
@@ -99,8 +99,21 @@ padding: 5px 5px;
   }
 } */
 
+
+@media screen and (max-width: 753px) {
+  .body p {
+    height: 75px;
+  }
+}
+
 @media screen and (max-width: 503px) {
   .cardAssignments {
     margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 483px) {
+  .body p {
+    height: 100px;
   }
 }

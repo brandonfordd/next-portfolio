@@ -99,7 +99,7 @@
         "img":"/assets/images/screenshot-weatherapp.png"
     },
     {
-        "id":12",
+        "id":"12",
         "name":"password_generator",
         "title": "Password Generator",
         "disc":"This is a password generator made with javascript! Below are the links for the GitHub repository and webpage",

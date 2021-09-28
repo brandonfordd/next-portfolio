@@ -69,7 +69,13 @@ export default function About() {
                     <p>@brandonfordd</p>
                 </div>
                 <div className="profile-description">
-                  <p className="linear-wipe-big">Hello, my name is Brandon Ford and this is my portfolio! I made this not only to showcase my various assignments and projects throughout my journey, but to also demonstrate skills in React and Next.js. For other versions of this portfolio please visit my Github!</p></div>
+                  <p className="linear-wipe-big">
+                    I am a Full Stack Web Developer based in the Northern Virginia area. With 4+ years of Computer Technician
+                    experience I recently earned a certificate in Full Stack Web Development from the University of George
+                    Washington, where I developed skills in JavaScript, CSS, React.js, Apollo/GraphQL, responsive web design, and
+                    more!
+                  </p>
+                </div>
                   <div className="row">
                     <div className="col-12">
                       <div className="container p-1 pb-0">
@@ -86,7 +92,7 @@ export default function About() {
                           <a target="_blank" rel="noreferrer" className="btn btn-floating m-1 icons" href="mailto:brandon.ford.617@gmail.com" role="button"
                             ><i className="fab fa-google"></i>
                           </a>
-                          <a role="button" target="_blank" className="btn btn-floating m-1 resumePBtn noWrap " href="/assets/downloads/brandonford_resume.pdf" download> Download Resume <i className="far fa-file-pdf"></i></a>
+                          <a role="button" target="_blank" className="btn btn-floating m-1 resumePBtn noWrap " href="/assets/downloads/Resume-brandon-ford.pdf" download> Download Resume <i className="far fa-file-pdf"></i></a>
                         </div>
                       </div>
                   </div>

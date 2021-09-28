@@ -65,7 +65,7 @@ function Navigation({ currentPage, handlePageChange }) {
                     View Resume
                   </Dropdown.Item>
                   <Dropdown.Item 
-                    href="/assets/downloads/brandonford_resume.pdf" 
+                    href="/assets/downloads/Resume-brandon-ford.pdf" 
                     download
                   >
                     Download Resume
