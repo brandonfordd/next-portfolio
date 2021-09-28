@@ -58,13 +58,13 @@
 /* assignments section */
 
 .assignmentsTitleWrapper {
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .assignmentsTitle {
 text-align: right;
 margin-bottom: 2%;
-margin-top: 100px;
+margin-top: 60px;
 margin-right: 20px;
 margin-left: auto;
 font-size: 40px !important;
