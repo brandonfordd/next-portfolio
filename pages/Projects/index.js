@@ -90,7 +90,7 @@ export default function Projects() {
           <Slider {...settingsProjects}>
               {projects &&
                 projects.map((projects) => (
-                  <Col lg="3">
+                  <Col key={projects.id} lg="3">
                     <Card className={styles.cardProjects}>
                       <div className="embed-responsive">
                         <Image className="card-img-top main-img-height" src={projects.img} alt={projects.name} layout="responsive" width={6} height={3.5} /> 
@@ -122,7 +122,7 @@ export default function Projects() {
           <Slider {...settingsAssignments}>
               {assignments &&
                 assignments.map((assignments) => (
-                  <Col lg="3">
+                  <Col key={assignments.id} lg="3">
                     <Card className={styles.cardAssignments}>
                       <div className="embed-responsive">
                         <Image className="card-img-top main-img-height" src={assignments.img} alt={assignments.name} layout="responsive" width={6} height={3.5} /> 

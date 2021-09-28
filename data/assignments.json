@@ -1,5 +1,6 @@
 [
     {
+        "id":"1",
         "name":"mern",
         "title": "M.E.R.N",
         "disc":"Full stack application following the M.E.R.N diagram. Below are the links for the GitHub repository and Vercel webpage!",
@@ -8,6 +9,7 @@
         "img":"/assets/gifs/mern.gif"
     },
     {
+        "id":"2",
         "name":"pwa",
         "title": "Progressive Web App",
         "disc":"Full stack web application to track your spending&apos;s on the fly by utilizing webpack to run offline. Below is the link to the Github and Heroku page",
@@ -16,6 +18,7 @@
         "img":"/assets/gifs/pwa.gif"
     },
     {
+        "id":"3",
         "name":"mdb_workout",
         "title": "Workout Tracker",
         "disc":"Full stack web application to track workouts, utilizing MongoDB for the backend. Below is the link to the Github and Heroku page",
@@ -24,6 +27,7 @@
         "img":"/assets/gifs/mdb_workout.gif"
     },
     {
+        "id":"4",
         "name":"regextutorial",
         "title": "Regex Tutorial",
         "disc":"This is a tutorial describing how the regex for matching a URL works. Below is the repository for the Gist on Github!",
@@ -32,6 +36,7 @@
         "img":"/assets/images/regex-url.png"
     },
     {
+        "id":"5",
         "name":"mvctech",
         "title": "MVC Techblog",
         "disc":"Building a full stack website for tech bloggers to post, update, and delete blogs! Below is the link to the Github and Heroku page",
@@ -40,6 +45,7 @@
         "img":"/assets/images/mvctech.png"
     },
     {
+        "id":"6",
         "name":"mysqltracker",
         "title": "Employee Tracker",
         "disc":"Using MySql we were task with designing a database for sorting and tracking employee! Below is the Github for more information",
@@ -48,6 +54,7 @@
         "img":"/assets/gifs/sql_gif.gif"
     },
     {
+        "id":"7",
         "name":"ecommercebackend",
         "title": "E-Commerce Backend",
         "disc":"Using MySql we were task with building the back end for an e-commerce site using Express.js and Sequelize. Below is the GitHub repository for more information!",
@@ -56,6 +63,7 @@
         "img":"/assets/gifs/categories.gif"
     },
     {
+        "id":"8",
         "name":"notetaker",
         "title": "Express Note Taker",
         "disc":"This is a Express Note taking application deployed on Heroku to show backend server development! Below are the links for the GitHub and Heroku!",
@@ -64,6 +72,7 @@
         "img":"/assets/gifs/notetaker_ppreview.gif"
     },
     {
+        "id":"9",
         "name":"readme_generator",
         "title": "Readme Generator",
         "disc":"Using node.js and Javascript you can generate custom readme files for any work flow. Below are the links for the GitHub repository for more information!",
@@ -72,6 +81,7 @@
         "img":"/assets/gifs/readme_preview.gif"
     },
     {
+        "id":"10",
         "name":"teamcard_generator",
         "title": "Team Profile Generator",
         "disc":"Using node.js and Javascript you can generate custom Team Profile html file to fit any work flow. Below are the links for the GitHub repository for more information!",
@@ -80,6 +90,7 @@
         "img":"/assets/gifs/team_profile.gif"
     },
     {
+        "id":"11",
         "name":"weather_app",
         "title": "Weather Dashboard",
         "disc":"This is a weather dashboard made with OpenWeather Api! Below are the links for the GitHub repository and webpage",
@@ -88,6 +99,7 @@
         "img":"/assets/images/screenshot-weatherapp.png"
     },
     {
+        "id":12",
         "name":"password_generator",
         "title": "Password Generator",
         "disc":"This is a password generator made with javascript! Below are the links for the GitHub repository and webpage",
@@ -96,6 +108,7 @@
         "img":"/assets/images/screenshot-passgen.png"
     },
     {
+        "id":"13",
         "name":"javascript_quiz",
         "title": "Javascript Quiz",
         "disc":"This is a Javascript Quiz using only javascript! Below are the links for the GitHub repository and webpage",
@@ -104,6 +117,7 @@
         "img":"/assets/images/screenshot-javaquiz.png"
     },
     {
+        "id":"14",
         "name":"day_planner",
         "title": "Day Planner",
         "disc":"This is a day planner using Javascript and moment.js! Below are the links for the GitHub repository and webpage",
@@ -112,6 +126,7 @@
         "img":"/assets/images/screenshot-dayplanner.png"
     },
     {
+        "id":"15",
         "name":"horiseon_website",
         "title": "Horison Site Refractment",
         "disc":"This assignment was to refract a pre-made site called Horison! Below are the links for the GitHub repository and webpage!",
