@@ -102,7 +102,7 @@ export default function About() {
           </div>
         </div>
         <div className="col-md-12 col-lg-6 p-5">
-        <div className="col-sm-12 col-md-12 col-lg-12 container skillsWrapper">
+        <div className="col-md-8 col-lg-10 container skillsWrapper">
           <div className="container d-flex ">
             <h1 className="skillsTitle container"> Skills
               <i id="gear1" className="fa fa-5x fa-gear spin p-tertiary-color"></i>
