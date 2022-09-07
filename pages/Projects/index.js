@@ -106,7 +106,7 @@ export default function Projects() {
                             : <a target="_blank" rel="noreferrer" href={projects.github} className="btn p-btn-color btn-lg custom-length-pp" role="button" aria-pressed="true"><b>GitHub </b><i className="fab fa-github-square"></i></a>
                           }
                           {projects.link
-                            ? <a target="_blank" rel="noreferrer" href={projects.link} className="btn btn-secondary btn-lg custom-length-ss" role="button" aria-pressed="true"><i class="fas fa-external-link-alt"></i></a>
+                            ? <a target="_blank" rel="noreferrer" href={projects.link} className="btn btn-secondary btn-lg custom-length-ss" role="button" aria-pressed="true"><i className="fas fa-external-link-alt"></i></a>
                             : <div></div>
                           }
                         </div>
@@ -143,7 +143,7 @@ export default function Projects() {
                             : <a target="_blank" rel="noreferrer" href={assignments.github} className="btn p-btn-color btn-lg custom-length-pp" role="button" aria-pressed="true"><b>GitHub </b><i className="fab fa-github-square"></i></a>
                           }
                           {assignments.link
-                            ? <a target="_blank" rel="noreferrer" href={assignments.link} className="btn btn-secondary btn-lg custom-length-ss" role="button" aria-pressed="true"><i class="fas fa-external-link-alt"></i></a>
+                            ? <a target="_blank" rel="noreferrer" href={assignments.link} className="btn btn-secondary btn-lg custom-length-ss" role="button" aria-pressed="true"><i className="fas fa-external-link-alt"></i></a>
                             : <div></div>
                           }
                         </div>

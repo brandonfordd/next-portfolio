@@ -70,10 +70,10 @@ export default function About() {
                 </div>
                 <div className="profile-description">
                   <p className="linear-wipe-big">
-                    I am a Full Stack Web Developer based in the Northern Virginia area. With 4+ years of Computer Technician
-                    experience I recently earned a certification in Full Stack Web Development from the University of George
-                    Washington, where I developed skills in JavaScript, CSS, React.js, Apollo/GraphQL, responsive web design, and
-                    more! I am a innovated problem solver with a passion for front end web development. During my course at GW for Full Stack Web development I realized how much enjoyment I got playing with different frameworks for our various assignments. Because of this, Front End development has always been my main focal point in a lot of my work. From different css effects to all the wonders sass providers, figuring out solutions to problems will always puts a smile on my face.
+                    I&apos;m a Full Stack Web Developer based in the Northern Virginia area. With years of computer technician
+                    experience I recently earned a certification in full stack web development from the University of George
+                    Washington, there I developed skills in JavaScript, CSS, React.js, Apollo/GraphQL, Responsive Web Design, and
+                    more!
                   </p>
                 </div>
                   <div className="row">

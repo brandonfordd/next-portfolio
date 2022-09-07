@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 export default function (req, res) {
     require('dotenv').config()
     

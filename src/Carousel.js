@@ -87,10 +87,10 @@ export const PopulateCarousel = ({ queryResults, queryTitle }) => {
                                                     src={album.albumImg}
                                                 />
                                             </div>
-                                            <Link href={`/album?q=${album.albumId}`}>
-                                                <h5>"{album.albumName}"</h5>
+                                            <Link href={`/album?q=${album.albumId}`}passHref>
+                                                <h5>{album.albumName}</h5>
                                             </Link>
-                                            <Link href={`/artist?q=${album.artistId}`}>
+                                            <Link href={`/artist?q=${album.artistId}`}passHref>
                                                 <h4>{album.artistName}</h4>
                                             </Link>
                                         </Card.Body>
