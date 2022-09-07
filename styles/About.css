@@ -15,7 +15,7 @@ div {
 } */
 
 .aboutCard {
-    margin:0 auto;
+    margin: auto;
     /* margin-top: 50px; */
     cursor: none !important;
 }
@@ -161,9 +161,10 @@ div {
 
 /* Skills sections */
 .skillsWrapper {
-    margin-top: 10%;
+    /* margin-top: 10%; */
     /* margin-bottom: 30px; */
     /* margin-top: 50px; */
+    margin: auto ;
     padding: 5%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.657);
     background-color: var(--secondary-bg-color);

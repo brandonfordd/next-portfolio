@@ -61,7 +61,7 @@ export default function About() {
     <div className="container m-autoC" id="about-me">
       <div className="row">
         <div className="col-md-12 col-lg-6 p-5">
-          <div className="col-md-8 col-lg-10 aboutCard">
+          <div className="col-md-8 col-lg-10 aboutCard ">
             <div className="profile-card-4 text-center">
             <Image src="/assets/images/me-pro1.jpg" alt="me" width="535" height="510" />
               <div className="profile-content">
@@ -102,7 +102,7 @@ export default function About() {
           </div>
         </div>
         <div className="col-md-12 col-lg-6 p-5">
-        <div className="col-md-8 col-lg-10 container skillsWrapper">
+        <div className="col-md-8 col-lg-10 skillsWrapper">
           <div className="container d-flex ">
             <h1 className="skillsTitle container"> Skills
               <i id="gear1" className="fa fa-5x fa-gear spin p-tertiary-color"></i>

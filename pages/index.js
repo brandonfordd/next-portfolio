@@ -35,7 +35,7 @@ export default function PortfolioContainer() {
           {/* We are passing the currentPage from state and the function to update it */}
           <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
           <div className={styles.headerImg}>
-          <Image className="img-fluid img-header" src="/assets/images/forest_main.jpg" alt="forest" layout="responsive" width={2560} height={734} /> 
+          <Image className="img-fluid img-header" src="/assets/images/forest_main.jpg" priority alt="forest" layout="responsive" width={2560} height={734} /> 
           </div>
           {/* Here we are calling the renderPage method which will return a component  */}
           {renderPage()}
