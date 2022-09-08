@@ -206,6 +206,7 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 30s linear infinite;
+  padding:10px;
 }
 
 /* mediaquerys for mobile ui */

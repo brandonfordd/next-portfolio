@@ -76,9 +76,9 @@ export default function About() {
                     more!
                   </p>
                 </div>
-                  <div className="row">
-                    <div className="col-12">
-                      <div className="container p-1 pb-0">
+                  
+                    <div className="col-12 pv-auto">
+                      <div className="container">
                         <div className="containerIcons">
                           <a target="_blank" rel="noreferrer" className="btn btn-floating m-1 icons" href="https://github.com/brandonfordd" role="button"
                             ><i className="fab fa-github"></i>
@@ -95,7 +95,7 @@ export default function About() {
                           <a role="button" target="_blank" className="btn btn-floating m-1 resumePBtn noWrap " href="/assets/downloads/Resume-brandon-ford.pdf" download> Download Resume <i className="far fa-file-pdf"></i></a>
                         </div>
                       </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -103,7 +103,7 @@ export default function About() {
         </div>
         <div className="col-md-12 col-lg-6 p-5">
         <div className="col-md-8 col-lg-10 skillsWrapper">
-          <div className="container d-flex ">
+          <div className="container d-flex skillT-ma">
             <h1 className="skillsTitle container"> Skills
               <i id="gear1" className="fa fa-5x fa-gear spin p-tertiary-color"></i>
               <i id="gear2" className="fa fa-5x fa-gear spin-back p-primary-color"></i>
