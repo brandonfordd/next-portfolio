@@ -173,9 +173,6 @@ div {
 
 /* Skills sections */
 .skillsWrapper {
-    /* margin-top: 10%; */
-    /* margin-bottom: 30px; */
-    /* margin-top: 50px; */
     margin: auto ;
     padding: 5%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.657);
@@ -186,20 +183,12 @@ div {
 .skillsTitle {
     font-size: 40px;
     font-weight: bold;
-    /* margin-top: 15px; */ 
-    /* margin-left: 50px; */
-    /* padding-bottom: px; */
-    /* position: relative; */
     width: 170px;
     color: var(--primary-color); 
-    /* background-color: var(--secondary-bg-color); */
-    /* border-radius: 15px; */
 }
 
 .skillT-ma{
     margin: 0 auto ;
-    /* padding:auto; */
-    /* margin-left: 10%; */
 }
 
 .skillbar {
