@@ -154,7 +154,7 @@ div {
     animation: animated-border 1.5s infinite;
     border-color: var(--secondary-color);
     color: black;
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color) !important ;
 }
 
 .resumePBtn {

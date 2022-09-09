@@ -186,7 +186,7 @@ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.657);
     background-color: var(--primary-color);
   }
   .p-btn-color:hover {
-    background-color: var(--primary-colorD);
+    background-color: var(--primary-colorD) !important;
   }
   
   .s-background-color {
