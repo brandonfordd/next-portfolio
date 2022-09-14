@@ -76,7 +76,8 @@ nav {
 
 .nav-link {
   color: var(--font-color) !important;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
   margin-right: 10px;
 }
 
@@ -88,8 +89,9 @@ nav {
 
 #resume-dropdown {
   color: var(--font-color) !important;
-  font-size: 16px;
+  font-size: 18px;
   margin-right: 10px;
+  font-weight: bold;
   /* margin-bottom: 5px; */
   background: none ;
   border-color: var(--primary-color);
@@ -117,17 +119,20 @@ nav {
 }
 
 .dropdown-menu {
-  background-color: rgb(207, 207, 207);
-  border-radius: 6px;
+  background-color: #222222;
+  border-radius: 0px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
   padding: 5px;
-  top: 39px !important;
+  top: 42px !important;
   right: 5px !important;
   left: -65px !important;
 }
 
 .nav-item-dropdown a {
-  color: rgb(0, 0, 0);
+  color: rgb(236, 236, 236);
   font-size: 15px;
+  
   text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.308);
   background-color: transparent;
   text-align: center;
@@ -136,9 +141,9 @@ nav {
 }
 
 .nav-item-dropdown a:hover {
-  color: var(--secondary-color);
+  color: #222222;
   border-radius: 4px;
-  background-color: rgb(138, 138, 138);
+  background-color: rgb(223, 223, 223);
 }
 
 .nav-brand-custom {
