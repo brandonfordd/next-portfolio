@@ -102,11 +102,11 @@ export default function Projects() {
                       <Card.Footer className= {styles.footer} >
                       <div className="text-center mt-auto">
                           {projects.link
-                            ? <a target="_blank" rel="noreferrer" href={projects.github} className="btn p-btn-color btn-lg custom-length-ps" role="button" aria-pressed="true"><b>GitHub </b><i className="fab fa-github-square"></i></a>
-                            : <a target="_blank" rel="noreferrer" href={projects.github} className="btn p-btn-color btn-lg custom-length-pp" role="button" aria-pressed="true"><b>GitHub </b><i className="fab fa-github-square"></i></a>
+                            ? <a target="_blank" rel="noreferrer" href={projects.github} className="btn p-btn-color btn-lg custom-length-ps" role="button" aria-pressed="true"><b>GitHub </b><i  aria-hidden className="fab fa-github-square"></i></a>
+                            : <a target="_blank" rel="noreferrer" href={projects.github} className="btn p-btn-color btn-lg custom-length-pp" role="button" aria-pressed="true"><b>GitHub </b><i  aria-hidden className="fab fa-github-square"></i></a>
                           }
                           {projects.link
-                            ? <a target="_blank" rel="noreferrer" href={projects.link} className="btn btn-secondary btn-lg custom-length-ss" role="button" aria-pressed="true"><i className="fas fa-external-link-alt"></i></a>
+                            ? <a target="_blank" rel="noreferrer" href={projects.link} className="btn btn-secondary btn-lg custom-length-ss" role="button" aria-pressed="true"><i  aria-hidden className="fas fa-external-link-alt"></i></a>
                             : <div></div>
                           }
                         </div>
@@ -139,11 +139,11 @@ export default function Projects() {
                       <Card.Footer className= {styles.footer} >
                         <div className="text-center mt-auto">
                           {assignments.link
-                            ? <a target="_blank" rel="noreferrer" href={assignments.github} className="btn p-btn-color btn-lg custom-length-ps" role="button" aria-pressed="true"><b>GitHub </b><i className="fab fa-github-square"></i></a>
-                            : <a target="_blank" rel="noreferrer" href={assignments.github} className="btn p-btn-color btn-lg custom-length-pp" role="button" aria-pressed="true"><b>GitHub </b><i className="fab fa-github-square"></i></a>
+                            ? <a target="_blank" rel="noreferrer" href={assignments.github} className="btn p-btn-color btn-lg custom-length-ps" role="button" aria-pressed="true"><b>GitHub </b><i  aria-hidden className="fab fa-github-square"></i></a>
+                            : <a target="_blank" rel="noreferrer" href={assignments.github} className="btn p-btn-color btn-lg custom-length-pp" role="button" aria-pressed="true"><b>GitHub </b><i  aria-hidden className="fab fa-github-square"></i></a>
                           }
                           {assignments.link
-                            ? <a target="_blank" rel="noreferrer" href={assignments.link} className="btn btn-secondary btn-lg custom-length-ss" role="button" aria-pressed="true"><i className="fas fa-external-link-alt"></i></a>
+                            ? <a target="_blank" rel="noreferrer" href={assignments.link} className="btn btn-secondary btn-lg custom-length-ss" role="button" aria-pressed="true"><i  aria-hidden className="fas fa-external-link-alt"></i></a>
                             : <div></div>
                           }
                         </div>

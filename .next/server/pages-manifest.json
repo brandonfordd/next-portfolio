@@ -2,18 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/About": "pages/About.html",
-  "/Contact": "pages/Contact.html",
-  "/NavbarToggle": "pages/NavbarToggle.html",
-  "/Navigation": "pages/Navigation.html",
-  "/Projects": "pages/Projects.html",
-  "/Footer": "pages/Footer.html",
-  "/Resume": "pages/Resume.html",
-  "/api/flux/constants": "pages/api/flux/constants.js",
-  "/api/flux/dispatcher": "pages/api/flux/dispatcher.js",
-  "/api/flux": "pages/api/flux.js",
-  "/api/flux/store": "pages/api/flux/store.js",
-  "/": "pages/index.html",
-  "/api/contact": "pages/api/contact.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }
