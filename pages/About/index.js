@@ -63,7 +63,7 @@ export default function About() {
         <div className="col-md-12 col-lg-6 p-5">
           <div className="col-md-8 col-lg-10 aboutCard ">
             <div className="profile-card-4 text-center">
-            <Image src="/assets/images/me-pro1.jpg" alt="me" width="535" height="510" />
+            <Image priority src="/assets/images/me-pro1.jpg" alt="me" width="535" height="510" />
               <div className="profile-content">
                 <div className="profile-name" id="contacts">  Brandon Ford
                     <p>@brandonfordd</p>
@@ -122,7 +122,7 @@ export default function About() {
               <div className="skillbar-bar" style={styles.oneS}></div>
             </div>
             <div className="skillbar" data-percent="90%">
-              <div className="skillbar-title"><i className="fab fa-css3-alt"></i> CSS Frameworks |<i> Bootstrap, Foundation</i></div>
+              <div className="skillbar-title"><i className="fab fa-css3-alt"></i> CSS Frameworks |<i> Bootstrap</i></div>
               <div className="skill-bar-percent">90%</div>
               <div className="skillbar-bar" style={styles.twoS}></div>
             </div>
@@ -171,7 +171,7 @@ export default function About() {
               <div className="skillbar-bar" style={styles.skillbarThree}></div>
             </div>
             <div className="skillbar" data-percent="95%">
-              <div className="skillbar-title"><i className="fas fa-sitemap"></i> Development  | <i> Inspect, Insomia, Next.js </i></div>
+              <div className="skillbar-title"><i className="fas fa-sitemap"></i> Development  | <i>Insomia, Next.js </i></div>
               <div className="skill-bar-percent">95%</div>
               <div className="skillbar-bar" style={styles.nineS}></div>
             </div>
@@ -186,7 +186,7 @@ export default function About() {
               <div className="skillbar-bar" style={styles.elevenS}></div>
             </div>
             <div className="skillbar" data-percent="90%">
-              <div className="skillbar-title"><i className="fas fa-clipboard-check"></i> Deployment | <i> Heroku, Vercel, Github </i></div>
+              <div className="skillbar-title"><i className="fas fa-clipboard-check"></i> Deployment | <i> Heroku, Vercel </i></div>
               <div className="skill-bar-percent">90%</div>
               <div className="skillbar-bar" style={styles.twelveS}></div>
             </div>

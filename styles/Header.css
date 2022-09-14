@@ -30,7 +30,7 @@
 html, 
 body {
   height: 100% !important;
-  font-family: 'Mukta', sans-serif;
+  font-family: 'Bender', sans-serif;
 }
 
 #__next {
@@ -484,3 +484,50 @@ hr {
   }
 }
 
+.box {
+	display: flex;
+}
+
+.box .inner {
+	width: 70px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 1.2em;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.box .inner:first-child {
+	background-color: #3fca95;
+	color: #222222;
+	transform-origin: right;
+	transform: perspective(100px) rotateY(-15deg);
+}
+
+.box .inner:last-child {
+	background-color: #222222;
+	color: #3fca95;
+	transform-origin: left;
+	transform: perspective(100px) rotateY(15deg);
+}
+
+.box .inner span {
+	position: absolute;
+	animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child span {
+	animation-delay: 2.5s;
+	left: -100%;
+}
+
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
+}
