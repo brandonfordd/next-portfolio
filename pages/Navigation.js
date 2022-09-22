@@ -15,14 +15,19 @@ function Navigation({ currentPage, handlePageChange }) {
   return (
       <Navbar expand="lg" className="navbar sticky-top navbar-expand-lg p-background-color "> 
         <Navbar.Brand>
-          <div className="box">
-            <div className="inner">
-              <span>Portfolio</span>
+          <a
+          href="#about"
+          onClick={() => handlePageChange('About')}
+          >
+            <div className="box">
+              <div className="inner">
+                <span>Portfolio</span>
+              </div>
+              <div className="inner">
+                <span>Portfolio</span>
+              </div>
             </div>
-            <div className="inner">
-              <span>Portfolio</span>
-            </div>
-          </div>
+          </a>
         </Navbar.Brand>
         <Navbar.Toggle className="navbar-toggler navbarBtn custom-toggler" aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -31,8 +36,6 @@ function Navigation({ currentPage, handlePageChange }) {
               <a
                 href="#about"
                 onClick={() => handlePageChange('About')}
-                // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-                // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
                 className={currentPage === 'About' ? 'nav-link p-font-color m-lc active' : 'nav-link p-font-color m-lc'}
               >
                 About
@@ -42,7 +45,6 @@ function Navigation({ currentPage, handlePageChange }) {
               <a
                 href="#projects"
                 onClick={() => handlePageChange('Projects')}
-                // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
                 className={currentPage === 'Projects' ? 'nav-link p-font-color m-lc active' : 'nav-link p-font-color m-lc'}
               >
                 My Work
@@ -52,7 +54,6 @@ function Navigation({ currentPage, handlePageChange }) {
               <a
                 href="#contact"
                 onClick={() => handlePageChange('Contact')}
-                // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
                 className={currentPage === 'Contact' ? 'nav-link p-font-color m-lc active' : 'nav-link p-font-color m-lc'}
               >
                 Contact

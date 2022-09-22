@@ -1,12 +1,11 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/About": "pages/About.html",
   "/Contact": "pages/Contact.html",
   "/Footer": "pages/Footer.html",
-  "/NavbarToggle": "pages/NavbarToggle.html",
   "/Navigation": "pages/Navigation.html",
+  "/NavbarToggle": "pages/NavbarToggle.html",
   "/Projects": "pages/Projects.html",
   "/Resume": "pages/Resume.html",
   "/api/contact": "pages/api/contact.js",
@@ -15,5 +14,6 @@
   "/api/flux": "pages/api/flux.js",
   "/api/flux/store": "pages/api/flux/store.js",
   "/": "pages/index.html",
+  "/_error": "pages/_error.js",
   "/404": "pages/404.html"
 }

@@ -37,22 +37,26 @@ function Navigation({ currentPage , handlePageChange  }) {
         className: "navbar sticky-top navbar-expand-lg p-background-color ",
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.Navbar.Brand, {
-                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "box",
-                    children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            className: "inner",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                children: "Portfolio"
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                    href: "#about",
+                    onClick: ()=>handlePageChange("About"),
+                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        className: "box",
+                        children: [
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "inner",
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                    children: "Portfolio"
+                                })
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "inner",
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                    children: "Portfolio"
+                                })
                             })
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            className: "inner",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                children: "Portfolio"
-                            })
-                        })
-                    ]
+                        ]
+                    })
                 })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__.Navbar.Toggle, {
@@ -69,8 +73,6 @@ function Navigation({ currentPage , handlePageChange  }) {
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                 href: "#about",
                                 onClick: ()=>handlePageChange("About"),
-                                // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-                                // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
                                 className: currentPage === "About" ? "nav-link p-font-color m-lc active" : "nav-link p-font-color m-lc",
                                 children: "About"
                             })
@@ -80,7 +82,6 @@ function Navigation({ currentPage , handlePageChange  }) {
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                 href: "#projects",
                                 onClick: ()=>handlePageChange("Projects"),
-                                // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
                                 className: currentPage === "Projects" ? "nav-link p-font-color m-lc active" : "nav-link p-font-color m-lc",
                                 children: "My Work"
                             })
@@ -90,7 +91,6 @@ function Navigation({ currentPage , handlePageChange  }) {
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                 href: "#contact",
                                 onClick: ()=>handlePageChange("Contact"),
-                                // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
                                 className: currentPage === "Contact" ? "nav-link p-font-color m-lc active" : "nav-link p-font-color m-lc",
                                 children: "Contact"
                             })

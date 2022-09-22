@@ -519,11 +519,11 @@ hr {
 
 .box .inner span {
 	position: absolute;
-	animation: marquee 5s linear infinite;
+	animation: marquee 40s linear infinite;
 }
 
 .box .inner:first-child span {
-	animation-delay: 2.5s;
+	animation-delay: 20s;
 	left: -100%;
 }
 
