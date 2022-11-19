@@ -102,96 +102,96 @@ export default function About() {
           </div>
         </div>
         <div className="col-md-12 col-lg-6 p-5">
-        <div className="col-md-8 col-lg-10 skillsWrapper">
-          <div className="container d-flex skillT-ma">
-            <h1 className="skillsTitle container"> Skills
-              <i id="gear1"  aria-hidden className="fa fa-5x fa-gear spin p-tertiary-color"></i>
-              <i id="gear2"  aria-hidden className="fa fa-5x fa-gear spin-back p-primary-color"></i>
-              <i id="gear3"  aria-hidden className="fa fa-5x fa-gear spin-back p-primary-color"></i>        
-            </h1>
+          <div className="col-md-8 col-lg-10 skillsWrapper">
+            <div className="container d-flex skillT-ma">
+              <h1 className="skillsTitle container"> Skills
+                <i id="gear1"  aria-hidden className="fa fa-5x fa-gear spin p-tertiary-color"></i>
+                <i id="gear2"  aria-hidden className="fa fa-5x fa-gear spin-back p-primary-color"></i>
+                <i id="gear3"  aria-hidden className="fa fa-5x fa-gear spin-back p-primary-color"></i>        
+              </h1>
+            </div>
+            <div className="col-12">
+              <div className="skillbar skillbarTop" data-percent="75%">
+                <div className="skillbar-title noWrap"><i  aria-hidden className="far fa-window-maximize"></i> Front End Web Development </div>
+                <div className="skill-bar-percent">75%</div>
+                <div className="skillbar-bar" style={styles.skillbarOne}></div>
+              </div>
+              <div className="skillbar" data-percent="95%">
+                <div className="skillbar-title"><i  aria-hidden className="fab fa-html5"></i> HTML  </div>
+                <div className="skill-bar-percent">95%</div>
+                <div className="skillbar-bar" style={styles.oneS}></div>
+              </div>
+              <div className="skillbar" data-percent="90%">
+                <div className="skillbar-title"><i  aria-hidden className="fab fa-css3-alt"></i> CSS Frameworks |<i> Bootstrap</i></div>
+                <div className="skill-bar-percent">90%</div>
+                <div className="skillbar-bar" style={styles.twoS}></div>
+              </div>
+              <div className="skillbar" data-percent="80%">
+                <div className="skillbar-title"><i  aria-hidden className="fab fa-js-square"></i> JavaScript |<i> JQuery, Node, Moment</i></div>
+                <div className="skill-bar-percent">80%</div>
+                <div className="skillbar-bar" style={styles.threeS}></div>
+              </div>
+              <div className="skillbar" data-percent="70%">
+                <div className="skillbar-title"><i aria-hidden className="fab fa-react"></i> React | <i> Next.js, Webpack, GraphQL</i> </div>
+                <div className="skill-bar-percent">70%</div>
+                <div className="skillbar-bar" style={styles.fourS}></div>
+              </div>
+            </div>
+            <div className="col-12 ">
+              <div className="skillbar" data-percent="60%">
+                <div className="skillbar-title noWrap"><i  aria-hidden className="fas fa-tools"></i> Back End Web Development </div>
+                <div className="skill-bar-percent">60%</div>
+                <div className="skillbar-bar" style={styles.skillbarTwo}></div>
+              </div>
+              <div className="skillbar" data-percent="45%">
+                <div className="skillbar-title"><i aria-hidden className="fas fa-database"></i> Databases |<i> MySql, MongoDB </i></div>
+                <div className="skill-bar-percent">45%</div>
+                <div className="skillbar-bar" style={styles.fiveS}></div>
+              </div>
+              <div className="skillbar" data-percent="90%">
+                <div className="skillbar-title"><i aria-hidden className="fas fa-wrench"></i> APIs </div>
+                <div className="skill-bar-percent">90%</div>
+                <div className="skillbar-bar" style={styles.sixS}></div>
+              </div>
+              <div className="skillbar" data-percent="70%">
+                <div className="skillbar-title"><i aria-hidden className="fas fa-server"></i> Servers |<i> Heroku, Apollo, Express</i></div>
+                <div className="skill-bar-percent">70%</div>
+                <div className="skillbar-bar" style={styles.sevenS}></div>
+              </div>
+              <div className="skillbar" data-percent="50%">
+                <div className="skillbar-title"><i aria-hidden className="fas fa-network-wired"> </i>Network <i></i></div>
+                <div className="skill-bar-percent">50%</div>
+                <div className="skillbar-bar" style={styles.eightS}></div>
+              </div>
+            </div>
+            <div className="col-12">
+              <div className="skillbar" data-percent="90%">
+                <div className="skillbar-title"><i aria-hidden className="fab fa-pushed"></i> Software Development Life Cycle </div>
+                <div className="skill-bar-percent">90%</div>
+                <div className="skillbar-bar" style={styles.skillbarThree}></div>
+              </div>
+              <div className="skillbar" data-percent="95%">
+                <div className="skillbar-title"><i aria-hidden className="fas fa-sitemap"></i> Development  | <i>Insomia, Next.js </i></div>
+                <div className="skill-bar-percent">95%</div>
+                <div className="skillbar-bar" style={styles.nineS}></div>
+              </div>
+              <div className="skillbar" data-percent="90%">
+                <div className="skillbar-title"><i aria-hidden className="fas fa-vial"></i> Testing </div>
+                <div className="skill-bar-percent">90%</div>
+                <div className="skillbar-bar" style={styles.tenS}></div>
+              </div>
+              <div className="skillbar" data-percent="80%">
+                <div className="skillbar-title"><i aria-hidden className="fas fa-chart-bar"></i> Analysis </div>
+                <div className="skill-bar-percent">80%</div>
+                <div className="skillbar-bar" style={styles.elevenS}></div>
+              </div>
+              <div className="skillbar" data-percent="90%">
+                <div className="skillbar-title"><i aria-hidden className="fas fa-clipboard-check"></i> Deployment | <i> Heroku, Vercel </i></div>
+                <div className="skill-bar-percent">90%</div>
+                <div className="skillbar-bar" style={styles.twelveS}></div>
+              </div>
+            </div>
           </div>
-          <div className="col-12">
-            <div className="skillbar skillbarTop" data-percent="75%">
-              <div className="skillbar-title noWrap"><i  aria-hidden className="far fa-window-maximize"></i> Front End Web Development </div>
-              <div className="skill-bar-percent">75%</div>
-              <div className="skillbar-bar" style={styles.skillbarOne}></div>
-            </div>
-            <div className="skillbar" data-percent="95%">
-              <div className="skillbar-title"><i  aria-hidden className="fab fa-html5"></i> HTML  </div>
-              <div className="skill-bar-percent">95%</div>
-              <div className="skillbar-bar" style={styles.oneS}></div>
-            </div>
-            <div className="skillbar" data-percent="90%">
-              <div className="skillbar-title"><i  aria-hidden className="fab fa-css3-alt"></i> CSS Frameworks |<i> Bootstrap</i></div>
-              <div className="skill-bar-percent">90%</div>
-              <div className="skillbar-bar" style={styles.twoS}></div>
-            </div>
-            <div className="skillbar" data-percent="80%">
-              <div className="skillbar-title"><i  aria-hidden className="fab fa-js-square"></i> JavaScript |<i> JQuery, Node, Moment</i></div>
-              <div className="skill-bar-percent">80%</div>
-              <div className="skillbar-bar" style={styles.threeS}></div>
-            </div>
-            <div className="skillbar" data-percent="70%">
-              <div className="skillbar-title"><i aria-hidden className="fab fa-react"></i> React | <i> Next.js, Webpack, GraphQL</i> </div>
-              <div className="skill-bar-percent">70%</div>
-              <div className="skillbar-bar" style={styles.fourS}></div>
-            </div>
-          </div>
-          <div className="col-12 ">
-            <div className="skillbar" data-percent="60%">
-              <div className="skillbar-title noWrap"><i  aria-hidden className="fas fa-tools"></i> Back End Web Development </div>
-              <div className="skill-bar-percent">60%</div>
-              <div className="skillbar-bar" style={styles.skillbarTwo}></div>
-            </div>
-            <div className="skillbar" data-percent="45%">
-              <div className="skillbar-title"><i aria-hidden className="fas fa-database"></i> Databases |<i> MySql, MongoDB </i></div>
-              <div className="skill-bar-percent">45%</div>
-              <div className="skillbar-bar" style={styles.fiveS}></div>
-            </div>
-            <div className="skillbar" data-percent="90%">
-              <div className="skillbar-title"><i aria-hidden className="fas fa-wrench"></i> APIs </div>
-              <div className="skill-bar-percent">90%</div>
-              <div className="skillbar-bar" style={styles.sixS}></div>
-            </div>
-            <div className="skillbar" data-percent="70%">
-              <div className="skillbar-title"><i aria-hidden className="fas fa-server"></i> Servers |<i> Heroku, Apollo, Express</i></div>
-              <div className="skill-bar-percent">70%</div>
-              <div className="skillbar-bar" style={styles.sevenS}></div>
-            </div>
-            <div className="skillbar" data-percent="50%">
-              <div className="skillbar-title"><i aria-hidden className="fas fa-network-wired"> </i>Network <i></i></div>
-              <div className="skill-bar-percent">50%</div>
-              <div className="skillbar-bar" style={styles.eightS}></div>
-            </div>
-          </div>
-          <div className="col-12">
-            <div className="skillbar" data-percent="90%">
-              <div className="skillbar-title"><i aria-hidden className="fab fa-pushed"></i> Software Development Life Cycle </div>
-              <div className="skill-bar-percent">90%</div>
-              <div className="skillbar-bar" style={styles.skillbarThree}></div>
-            </div>
-            <div className="skillbar" data-percent="95%">
-              <div className="skillbar-title"><i aria-hidden className="fas fa-sitemap"></i> Development  | <i>Insomia, Next.js </i></div>
-              <div className="skill-bar-percent">95%</div>
-              <div className="skillbar-bar" style={styles.nineS}></div>
-            </div>
-            <div className="skillbar" data-percent="90%">
-              <div className="skillbar-title"><i aria-hidden className="fas fa-vial"></i> Testing </div>
-              <div className="skill-bar-percent">90%</div>
-              <div className="skillbar-bar" style={styles.tenS}></div>
-            </div>
-            <div className="skillbar" data-percent="80%">
-              <div className="skillbar-title"><i aria-hidden className="fas fa-chart-bar"></i> Analysis </div>
-              <div className="skill-bar-percent">80%</div>
-              <div className="skillbar-bar" style={styles.elevenS}></div>
-            </div>
-            <div className="skillbar" data-percent="90%">
-              <div className="skillbar-title"><i aria-hidden className="fas fa-clipboard-check"></i> Deployment | <i> Heroku, Vercel </i></div>
-              <div className="skill-bar-percent">90%</div>
-              <div className="skillbar-bar" style={styles.twelveS}></div>
-            </div>
-          </div>
-        </div>
         </div>
       </div>  
     </div>

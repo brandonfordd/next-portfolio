@@ -18,14 +18,10 @@ function Navigation({ currentPage, handlePageChange }) {
           <a
           href="#about"
           onClick={() => handlePageChange('About')}
+          target="_blank"
           >
-            <div className="box">
-              <div className="inner">
-                <span>Portfolio</span>
-              </div>
-              <div className="inner">
-                <span>Portfolio</span>
-              </div>
+            <div id="wrapper">
+              <h1 className="glitch" data-text="Portfolio">Portfolio</h1>
             </div>
           </a>
         </Navbar.Brand>
